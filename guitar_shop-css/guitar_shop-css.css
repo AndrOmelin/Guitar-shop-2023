@@ -3,7 +3,7 @@
    License: none (public domain)
 */
 /* Обнулення */
-html, body, div, span, applet, object, iframe,
+/* html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -15,62 +15,62 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
+time, mark, audio, video { */
+	/* margin: 0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
-}
+	vertical-align: baseline; */
+/* } */
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+	/* display: block; */
 }
 body {
-	line-height: 1;
+	/* line-height: 1; */
 }
 ol, ul {
-	list-style: none;
+	/* list-style: none; */
 }
 blockquote, q {
-	quotes: none;
+	/* quotes: none; */
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
+/* blockquote:before, blockquote:after, */
+/* q:before, q:after { */
+	/* content: '';
+	content: none; */
+/* } */
+/* table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
+} */
 
-button {
+/* button {
 	border: none;
 	outline: none;
-}
+} */
 
-*,
+/* *,
 *::before,
 *::after{
 padding: 0;
 margin: 0;
 border: 0;
 box-sizing: border-box;
-}
+} */
 
-a{
+/* a{
 text-decoration: none;
-}
+} */
 
-ul,
+/* ul,
 ol,
 li{
-    list-style: none;
-}
-img{
+    /* list-style: none; */
+/* } */
+/* img{
     vertical-align: top;
 }
 h1,
@@ -81,13 +81,27 @@ h5,
 h6{
     font-weight: inherit;
     font-size: inherit;
-}
+} */
 /* Обнулення */
 
 /*Стилі сайту*/
 
 :root {
-	--color-light: #f8f9fa; 
+	--color-light: #f8f9fa;
+	--color-white: #ffffff;
+	--color-unaccent: #808080;
+
+	/* Відступи зверху та знизу що повторюються */
+	--spacing-small: 10px; 
+	--spacing-medium: 15px;
+	--spacing-large: 30px;
+
+    --border-radius: 10px;
+	--linear-gradient: linear-gradient(to right, #e2f87c, #d6f567, #c8f151, #b9ee38, #a8eb12);
+	--box-shadow:
+	0 16px 24px 2px rgba(33, 37, 41,.02),
+	0 6px 30px 5px rgba(33, 37, 41,.04),
+	0 8px 10px -5px rgba(33, 37, 41,.1);
 }
 
 * {
